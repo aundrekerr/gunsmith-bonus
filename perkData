@@ -173,7 +173,7 @@ export default {
   // Slideways
   2039302152: 'Lasts 3s. Refreshes 15% of the magazine and grants ~20 Stability & ~25 Handling.',
   // Snapshot Sights
-  957782887: 'Stacks with Targeting mods, Threat Detector, and Wraithmetal Mail (The Dragon\'s Shadow perk, Hunter Exotic Chest).',
+  957782887: 'Stacks with Targeting mods and Threat Detector.',
   // Sneak Bow
   908147344: 'Prevents ping on radar after shooting while crouched. Provides a Scalar Reload Boost and increases hold time by 25%.',
   // Spike Grenades
