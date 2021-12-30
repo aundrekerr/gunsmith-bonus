@@ -23,7 +23,3 @@ It's nothing crazy. Just a comment, key, and value. For ease of use, head over t
 // High-Impact Reserves
 2213355989: "Gradual damage increase starting at 50% of magazine left.\n• \tIn PvE, 12.1% to 25.6%.\n• \tIn PvP, 3% to 6%.",
 ```
-
-## Bonus Info Sources
-- [Court's Comprehensive Destiny 2 Data & Information Spreadsheets](https://docs.google.com/spreadsheets/d/1WaxvbLx7UoSZaBqdFr1u32F2uWVLo-CJunJB4nlGUE4/edit#gid=67704318) 
-- [Pip1n's Destiny 2 Data Compendium](https://docs.google.com/spreadsheets/d/1i1KUwgVkd8qhwYj481gkV9sZNJQCE-C3Q-dpQutPCi4/edit#gid=242217075) 
