@@ -155,7 +155,7 @@ export default {
   // Reconstruction
   1523832109: 'After not shooting for 4s, reloads 10% of the magazine. Maxes out double magazine size.',
   // Redirection
-  3201496230: 'On low-tier Minor hit, grants one stack. See Court\'s Modifier Database (link on homepage) for Combatant Type listings.',
+  3201496230: 'On low-tier Minor hit, grants one stack.',
   // Relentless Strikes
   1749209109: 'Powered Swords gain 1 Ammo after 3 Hits within ~2s of each.',
   // Reservoir Burst
