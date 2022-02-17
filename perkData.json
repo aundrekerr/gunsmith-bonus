@@ -2,11 +2,15 @@
   "weapon_perks": {
     "3673922083": {
       "name": "Adagio",
-      "description": "Duration of 5 seconds. \n• \tHand Cannon: 25% Damage, -15% Rate of Fire\n• \tAuto Rifle: 25% Damage, -20% Rate of Fire\n• \tBow: 20% Damage, -20% Charge Rate\n• \tShotgun: 20% Damage, -20% Rate of Fire\n• \tFusion Rifle: 27% Damage, -15% Charge Rate\n• \tGrenade Launcher: 25% Damage, -20% Rate of Fire\n• \tLinear Fusion Rifle: 25% Damage, -15% Charge Rate"
+      "description": "Duration of 7 seconds. \n•\tHand Cannon: 30% Damage, -15% RoF\n•\tAuto Rifle: 30% Damage, -20% RoF\n•\tBow: 20% Damage, -20% Charge Rate\n•\tShotgun: 30% Damage, -20% RoF\n•\tFusion Rifle: 27% Damage, -15% Charge Rate\n•\tGrenade Launcher: 30% Damage, -20% RoF\n• \tLinear Fusion Rifle: 30% Damage, -15% Charge Rate"
     },
     "11612903": {
       "name": "Adrenaline Junkie",
-      "description": "Duration refreshed on Grenade Kill. Has a duration of 4.5 seconds.\n•  1x:\t6.6%\n•  2x:\t13.2%\n•  3x:\t20%\n•  4x:\t26.6%\n•  5x:\t33.3%"
+      "description": "Duration refreshed on Weapon or Grenade Kill. Any stack grants ~20 Handling. Has a duration of 4.5 seconds.\n•  1x:\t6.6%\n•  2x:\t13.2%\n•  3x:\t20%\n•  4x:\t26.6%\n•  5x:\t33.3%"
+    },
+    "1431678320": {
+      "name": "Alloy Mag",
+      "description": "0.85x Reload Duration Scale"
     },
     "2010801679": {
       "name": "Ambitious Assassin",
@@ -18,7 +22,7 @@
     },
     "1968497646": {
       "name": "Armor-Piercing Rounds",
-      "description": "5% Damage Increase against Combatant Shields. Bullets are able to penetrate up to 1 enemy."
+      "description": "5% Damage Increase against Combatant Shields. Bullets are able to penetrate enemies once."
     },
     "354401740": {
       "name": "Assassin's Blade",
@@ -34,11 +38,11 @@
     },
     "454085387": {
       "name": "Blunt Execution Rounds",
-      "description": "Must damage an enemy within 15m to activate. Grants 100 Handling and 500% (PvE)/100% (PvP) Damage for 10s or until firing. 4s cooldown and can be procced when stowed."
+      "description": "Must deal Melee damage while an enemy is within 15m. Grants 100 Handling and 500% (PvE)/100% (PvP) Damage for 10s or until firing. 4s cooldown and can be procced when stowed. Powered Melees that require sprinting, sliding, or performing a slam will not activate this perk."
     },
     "2551157718": {
       "name": "Box Breathing",
-      "description": "Activates after 1.5s of being scoped-in."
+      "description": "Activates after 1.5s of being scoped-in.\n• \tScout Rifle: 66%\n• \tLinear Fusion: 33%\n• \tAggressive Sniper: 37%\n• \tRapid-Fire/Adaptive Sniper: 31%"
     },
     "1264398905": {
       "name": "Celerity",
@@ -54,7 +58,7 @@
     },
     "1275731761": {
       "name": "Cluster Bomb",
-      "description": "Releases 8 Cluster Bombs where each one does 3% of the Explosive Damage, increasing the effective damage radius and overall damage."
+      "description": "Releases 8 Cluster Bombs where each one does 3% of the Explosive Damage, increasing the effective damage radius and overall damage. Each Cluster Bomb can deal up to the equivalent of a single Hand Cannon shot."
     },
     "3650930298": {
       "name": "Cold Steel",
@@ -62,7 +66,7 @@
     },
     "1799762209": {
       "name": "Cornered",
-      "description": "Activates within ~15m of 3 enemies. Grants 100ms faster Charge Time/Draw Time. Lingers for 1.5s."
+      "description": "Activates within ~15m of 2 enemies. Grants 100ms faster Charge Time/Draw Time. Lingers for 1.5s."
     },
     "3016987351": {
       "name": "Counterattack",
@@ -70,7 +74,7 @@
     },
     "960810156": {
       "name": "Danger Zone",
-      "description": "Activates within ~15 meters of 3 enemies, lingers for ~4s. Possibly sets Blast Radius to 100 for the duration?"
+      "description": "Activates within ~15 meters of 3 enemies, lingers for ~4s. Sets Blast Radius to 100 and Self Damage to 40%."
     },
     "3523296417": {
       "name": "Demolitionist",
@@ -86,11 +90,11 @@
     },
     "2848615171": {
       "name": "Dragonfly",
-      "description": "Creates an elemental explosion based on the weapon's element damage, has a 3m radius and is not affected by weapon perks."
+      "description": "Creates an elemental explosion based on the weapon's element damage, has a 3m radius. Explosion damage is dependant on weapon archetype."
     },
     "1359896290": {
       "name": "Dynamic Sway Reduction",
-      "description": "Greatly increases Accuracy after sustained fire for 0.6s, almost negating the effects of bloom. Adds 9 Stability over time. In-air accuracy is still bad unless used alongside Icarus Grip."
+      "description": "Greatly increases Accuracy after sustained fire for 0.6s, almost negating the effects of bloom. Adds 9 Stability over time. In-air accuracy is improved but not greatly unless used alongside Icarus Grip."
     },
     "2077819806": {
       "name": "Eager Edge",
@@ -112,21 +116,29 @@
       "name": "Energy Transfer",
       "description": "Grants Class Ability Energy based on the amount of damage taken. It's possible to fully charge your Class Ability with less than half of your entire Guard Energy."
     },
+    "2621346526": {
+      "name": "Ensemble",
+      "description": "Must be within 15m of 1 or more allies. Grants 30 Handling and 40 Reload Speed. Lingers for 1.5s."
+    },
     "3365897133": {
       "name": "Explosive Head",
-      "description": "Detonates after 0.6s. Splits 50% of damage into explosive damage with 30% more damage and no fall off.\n• \tIn PvE, 11% increase to precision damage and 15% to non-precision damage.\n• \tIn PvP, total damage remains almost the same."
+      "description": "Detonates after 0.6s. Splits 50% of damage into explosive damage with 30% more damage and no fall off.\n•\tIn PvE, 11% increase to precision damage and 15% to non-precision damage.\n• \tIn PvP, total damage remains almost the same."
     },
     "3194351027": {
       "name": "Explosive Light",
-      "description": "Power Grenade Launchers receives a 70% damage increase. Rockets receive a 25% damage increase and sets Blast Radius to 100."
+      "description": "Caps at 6 stacks. Heavy Grenade Launchers receives a 70% damage increase. Rocket Launchers receive a 25% damage increase and sets Blast Radius to 100."
     },
     "3038247973": {
       "name": "Explosive Payload",
-      "description": "Splits 50% of damage into explosive damage with 30% more damage and no fall off.\n• \tIn PvE, 11% increase to precision damage and 15% to non-precision damage.\n• \tIn PvP, total damage remains almost the same."
+      "description": "Splits 50% of damage into explosive damage with 30% more damage and no fall off.\n•\tIn PvE, 11% increase to precision damage and 15% to non-precision damage.\n• \tIn PvP, total damage remains almost the same."
+    },
+    "699525795": {
+      "name": "Eye of the Storm",
+      "description": "Effect increases linearly as Health decreases, max benfits at Critical Health. Grants 30 Handling, -40% Accuracy Cone Size, -17% Accuracy Cone Growth."
     },
     "2779035018": {
       "name": "Feeding Frenzy",
-      "description": "Duration of 3.5s. Grants a flat Reload Speed bonus and a multiplier per stack:\n•  1x:\t10/0x\n•  2x:\t45/0.9x\n•  3x:\t55/0.88x\n•  4x:\t75/0.85x\n•  5x:\t100/0.8x"
+      "description": "Duration of 3.5s. Grants a flat Reload Speed bonus and a multiplier per stack:\n•\t1x:\t10/0x\n•\t2x:\t45/0.9x\n•\t3x:\t55/0.88x\n•\t4x:\t75/0.85x\n•\t5x:\t100/0.8x"
     },
     "2869569095": {
       "name": "Field Prep",
@@ -134,19 +146,19 @@
     },
     "3824105627": {
       "name": "Firefly",
-      "description": "Precision kills grant a 45 Reload Speed bonus for 6 seconds. Same radius as Dragonfly Spec, but deals 25% more damage. Does not work with Dragonfly Spec."
+      "description": "Precision kills grant a 45 Reload Speed bonus for 6 seconds. Same radius as Dragonfly (3m), but deals 25% more damage. Does not work with Dragonfly Spec."
     },
     "1771339417": {
       "name": "Firing Line",
-      "description": "Activates when near friendly Guardians and AI allies. 20% increased precision damage."
+      "description": "20% increased precision damage."
     },
     "280464955": {
       "name": "Firmly Planted",
-      "description": "Grants the following when crouched:\n•  30 Handling\n•  20 Stability\n•  -40 Accuracy Cone Size\n•  -17% Accuracy Cone Growth\n•  -80 Recoil Yaw (Horizontal Recoil)"
+      "description": "Grants the following when crouched:\n•\t30 Handling\n•\t20 Stability\n•\t-40 Accuracy Cone Size\n•\t-17% Accuracy Cone Growth\n•\t-80 Recoil Yaw (Horizontal Recoil)"
     },
     "2244851822": {
       "name": "Flash Counter",
-      "description": "Activates after blocking a melee within ~0.5s of starting a Block. Suppresses and Weakens the enemy, granting 20% Increased Damage for 4s."
+      "description": "Activates after blocking a melee within ~0.5s of starting a Block. Suppresses and Weakens the enemy, granting 20% increased Damage for 4s."
     },
     "1354429876": {
       "name": "Fourth Times The Charm",
@@ -154,9 +166,9 @@
     },
     "4104185692": {
       "name": "Frenzy",
-      "description": "Being in combat for 12 seconds grants 15% increased damage, ~50 Handling, and 50 Reload Speed. Lasts until you're out of combat. Being In Combat is having dealt or received damage within 5 seconds."
+      "description": "Can active when stowed and applies to all weapons with Frenzy. Grants the following after being In Combat (dealt or received damage within 5s) for 12s:\n•\t15% Damage Increase\n•\t50 Handling\n•\t50 Reload Speed"
     },
-    "4267945040": {
+    "2117683199": {
       "name": "Full Auto Trigger System",
       "description": "Increases fire rate by 10% on shotguns only."
     },
@@ -170,7 +182,7 @@
     },
     "2610012052": {
       "name": "Golden Tricorn",
-      "description": "15% (PvE)/7.5% (PvP) Increased Damage for 5s, can be refreshed with a Weapon Kill. Grenade/Powered Melee Kills raise this to 50% (PvE)/45% (PvP) for 10s, can be refreshed by getting another Matching Ability Kill."
+      "description": "15% Increased Damage for 5s, can be refreshed with a Weapon Kill. Grenade/Powered Melee Kills raise this to 50% for 10s, can be refreshed by getting another Matching Ability Kill."
     },
     "1631667848": {
       "name": "Grave Robber",
@@ -182,15 +194,15 @@
     },
     "460017080": {
       "name": "Headseeker",
-      "description": "Headshots mid burst after hitting at least one bodyshot receive 8% increased precision damage. Fourth bullet in Aggressive Burst frames doesn't receive increased precision."
+      "description": "Headshots mid burst after hitting at least one bodyshot receive 8% increased precision damage."
     },
     "124408337": {
       "name": "Headstone",
-      "description": "Minor enemies spawn a medium-sized Stasis Crystal. Anything is a large-sized Crystal."
+      "description": "Minor enemies spawn a medium-sized Stasis Crystal. Anything is a large-sized Crystal. Having 5 crystals active simultaneously incurs a 5s cooldown penalty."
     },
     "1570042021": {
       "name": "Heating Up",
-      "description": "Lasts 5.5s.\n• 1x: \t15% Accuracy Cone Growth, 15 Stability, ~20 Recoil Direction \n• 2x: \t30% Accuracy Cone Growth, 30 Stability, ~40 Recoil Direction"
+      "description": "Lasts 5.5s.\n•  1x:\n\t• 15% Accuracy Cone Growth\n\t• 15 Stability\n\t• ~20 Recoil Direction \n•  2x:\n\t• 30% Accuracy Cone Growth\n\t• 30 Stability\n\t• ~40 Recoil Direction"
     },
     "1561002382": {
       "name": "High-Caliber Rounds",
@@ -202,7 +214,7 @@
     },
     "1866048759": {
       "name": "Hip-fire Grip",
-      "description": "When hipfiring:\n• \t1.2x Aim Assist and Reticle Stickiness falloff distance\n• \t15 Aim Assistance\n• \t+2.7deg precision angle threshold (except for Snipers)\n• \t~30% Accuracy Cone Size \n• \t~30 Stability"
+      "description": "•\t1.2x Aim Assist and Reticle Stickiness falloff distance\n•\t15 Aim Assistance\n•\t+2.7deg precision angle threshold (except for Snipers)\n•\t~30% Accuracy Cone Size \n•\t~30 Stability"
     },
     "3796465595": {
       "name": "Impact Casing",
@@ -222,11 +234,11 @@
     },
     "2450788523": {
       "name": "Killing Wind",
-      "description": "Lasts for 6s, additional kills add 6s, caps at 8s.\n• \t20 Range\n• \t50 Mobility\n• \t~40 Handling\n• \t30% reduced ADS movement speed penalty\n• \t1.05x Damage Falloff Distance Multiplier"
+      "description": "Lasts for 6s, additional kills add 6s, caps at 8s.\n•\t20 Range\n•\t50 Mobility\n•\t40 Handling\n•\t30% reduced ADS movement penalty\n•\t1.05x Damage Falloff Distance Multiplier"
     },
     "3927722942": {
       "name": "Lasting Impression",
-      "description": "Rockets detonate 3 seconds after impact and deal 20% more blast damage. Adds 25 Blast Radius, does not exceed 100."
+      "description": "Rockets detonate 3 seconds after impact and deal an additional 25% Explosive Damage. Effectively 20% increased damage."
     },
     "1556840489": {
       "name": "Lead From Gold",
@@ -238,7 +250,7 @@
     },
     "3513791699": {
       "name": "Mulligan",
-      "description": "20% chance on miss to return 1 bullet to the magazine."
+      "description": "20% chance on miss to return 1 Ammo to the Magazine."
     },
     "2458213969": {
       "name": "Multikill Clip",
@@ -250,15 +262,15 @@
     },
     "4049631843": {
       "name": "One For All",
-      "description": "35% bonus after hitting 3 separate targets within 3 seconds of eachother."
+      "description": "35% bonus after hitting 3 separate targets within 3 seconds of eachother. 10s duration."
     },
     "2679249093": {
       "name": "One-Two Punch",
-      "description": "Lasts for 1.5s:\n•  200% Melee Damage Increase normally\n•  350% Melee Damage Increase against Bosses and Vehicles\n•  80% Melee Damage Increase if combined with Liar's Handshake (Hunter Exotic Gauntlets)"
+      "description": "Lasts for 1.5s:\n•\t200% Melee Damage Increase normally\n•\t350% Melee Damage Increase against Bosses and Vehicles\n•\t80% Melee Damage Increase if combined with Liar's Handshake (Hunter Exotic Gauntlets)"
     },
     "47981717": {
       "name": "Opening Shot",
-      "description": "Applies to the first bullet only after not firing for 3.1s. Grants the following:\n• \t20 Aim Assistance\n• \t20 Range\n• \t5% Damage Falloff Distance Increase (excluding Shotguns)\n• \t-5% Accuracy Cone\n• \t-10% Accuracy Cone Growth\n• \tShotguns do not receive the Damage Falloff Distance Increase"
+      "description": "Applies to the first bullet only after not firing for 3.1s. Grants the following:\n•\t20 Aim Assistance\n•\t20 Range\n•\t5% Damage Falloff Distance Increase (excluding Shotguns)\n•\t-5% Accuracy Cone\n•\t-10% Accuracy Cone Growth"
     },
     "1168162263": {
       "name": "Outlaw",
@@ -274,7 +286,7 @@
     },
     "1428297954": {
       "name": "Perpetual Motion",
-      "description": "Grants 1 Stack 2s of moving, second Stack after 10s. \n• 1x:\t5 Stability, 10 Handling, 10 Reload\n• 2x:\t10 Stability, 20 Handling, 20 Reload"
+      "description": "Grants 1 Stack 2s of moving, second Stack after 10s. Works while weapon is stowed. \n•  1x:\t5 Stability, 10 Handling, 10 Reload\n•  2x:\t10 Stability, 20 Handling, 20 Reload"
     },
     "830282363": {
       "name": "Phase Mag",
@@ -290,11 +302,11 @@
     },
     "3425386926": {
       "name": "Rampage",
-      "description": "Has a duration of 3.5 seconds, all stacks disappear once timer expires.\n•  1x:\t10%\n•  2x:\t21%\n•  3x:\t33%"
+      "description": "Has a duration of 3.5 seconds, all stacks disappear once timer expires.\n•  1x:\t10%\n•  2x:\t21%\n•  3x:\t33.1%"
     },
     "2846385770": {
       "name": "Rangefinder",
-      "description": "10% increase to Zoom when ADS. 5% faster projectile Velocity when ADS."
+      "description": "10% increase to Zoom and 30% increase to Aim Assist Damage Falloff Distance while ADS. 5% Faster Projectile Speed when ADS."
     },
     "247725512": {
       "name": "Rapid Hit",
@@ -306,7 +318,7 @@
     },
     "3201496230": {
       "name": "Redirection",
-      "description": "On low-tier Minor hit, grants one stack."
+      "description": "On low-tier Minor hit, grants one stack. Caps at 20 stacks."
     },
     "1749209109": {
       "name": "Relentless Strikes",
@@ -318,7 +330,7 @@
     },
     "3418782618": {
       "name": "Rewind Rounds",
-      "description": "• 50-60% for Primary weapons\n• 30-40% Special weapons"
+      "description": "•\t50-60% for Primary weapons\n•\t30-40% Special weapons"
     },
     "1140096971": {
       "name": "Seraph Rounds",
@@ -330,7 +342,7 @@
     },
     "3700496672": {
       "name": "Shoot To Loot",
-      "description": "4 second cooldown. Triggers ammo-pickup perk."
+      "description": "4 second cooldown. Triggers ammo-pickup effects such as Overflow."
     },
     "3161816588": {
       "name": "Slideshot",
@@ -342,11 +354,11 @@
     },
     "957782887": {
       "name": "Snapshot Sights",
-      "description": "Stacks with Targeting mods and Threat Detector."
+      "description": "Massive ADS Animation Speed multiplier bonus. Stacks with Targeting mods and Threat Detector."
     },
     "908147344": {
       "name": "Sneak Bow",
-      "description": "Prevents ping on radar after shooting while crouched. Provides a Scalar Reload Boost and increases hold time by 25%."
+      "description": "Prevents Radar Ping after shooting while crouched. Provides a Scalar Reload Boost and increases hold time by 25%."
     },
     "3301904089": {
       "name": "Spike Grenades",
@@ -354,7 +366,7 @@
     },
     "1820235745": {
       "name": "Subsistence",
-      "description": "Reloads 10-17% of the magazine per kill."
+      "description": "Reloads 10-17% of the magazine per kill. Varies per weapon archetype."
     },
     "3436462433": {
       "name": "Surplus",
@@ -362,19 +374,19 @@
     },
     "4082225868": {
       "name": "Swashbuckler",
-      "description": "Has a duration of 4.5 seconds.\n•  1x:\t6.6%\n•  2x:\t13.2%\n•  3x:\t20%\n•  4x:\t26.6%\n•  5x:\t33.3%"
+      "description": "Has a duration of 4.5 seconds.\n•  1x:\t6.6%\n•  2x:\t13.2%\n•  3x:\t20%\n•  4x:\t26.4%\n•  5x:\t33.3%"
     },
     "3350417888": {
       "name": "Sympathetic Arsenal",
-      "description": "Refreshes stowed weapons after reloading up to 6s after a kill. Passively grants 18 Reload Speed."
+      "description": "Refreshes stowed weapons after reloading up to 6s after a kill."
     },
     "1890422124": {
       "name": "Tap The Trigger",
-      "description": "Grants 25 Stability and 10% increased accuracy for 0.6s. Refreshes immediately after not firing. For controller, the weapon fires the instant trigger pressure is applied."
+      "description": "For controller only, weapons fire the instant trigger pressure is applied. Grants the following benefits for 0.6s:\n•  Normal Benefits\n\t• 40 Stability\n\t• -50% Max Recoil Kick\n\t• -10% Accuracy Cone Size\n•  Fusion Rifles\n\t•  10 Stability\n\t•  -12.5% Max Recoil Kick\n\t•  -2.5% Accuracy Cone Size"
     },
     "4071163871": {
       "name": "Threat Detector",
-      "description": "Within 15m of 1 enemy: ~15 Stability, 15 Reload, 25% faster Handling animation speed.\n Within 15m of 2+ enemies: ~40 Stability, 55 Reload, and 43% faster Handling animation speed."
+      "description": "• Within 15m of 1 enemy:\n\t• ~15 Stability\n\t• 15 Reload\n\t• 0.75x Handling Animation Duration\n• Within 15m of 2+ enemies:\n\t• ~40 Stability\n\t•55 Reload\n\t• 0.56x Handling Animation Duration"
     },
     "2726471870": {
       "name": "Thresh",
@@ -386,11 +398,11 @@
     },
     "2590710093": {
       "name": "Tireless Blade",
-      "description": "Powered Swords gain 1 Ammo after every other kill. The first kill with also proc this."
+      "description": "Powered Swords gain 1 Ammo after every other kill. The first kill will also proc this."
     },
     "2360754333": {
       "name": "Trench Barrel",
-      "description": "Grants the following for 5 seconds or until 3 shots are expended: 50% damage increase, 30 Handling, x Reload Speed."
+      "description": "Grants the following for 5s or until 3 shots are expended:\n•\t50% Damage Increase\n•\t30 Handling\n•\t(?) Reload Speed"
     },
     "3400784728": {
       "name": "Triple Tap",
@@ -398,11 +410,11 @@
     },
     "2946784966": {
       "name": "Tunnel Vision",
-      "description": "Activates after reloading 6 seconds after a kill. Grants 20 Aim Assist, 20% Accuracy and additional ADS Handling (with a small Duration Scalar) for 5s."
+      "description": "Activates after reloading 6s after a kill. Grants the following for 5s:\n•\t20 Aim Assist\n•\t-20% Accuracy Cone Size\n•\tADS Handling Multiplier"
     },
     "1645158859": {
       "name": "Under Pressure",
-      "description": "Activates once the magazine goes below 50%. Grants 25% to 50% increased accuracy and up to 20 Stability."
+      "description": "Activates once the magazine goes below 50%. Grants 25% to 50% increased accuracy and up to 30 Stability."
     },
     "205890336": {
       "name": "Underdog",
@@ -414,7 +426,7 @@
     },
     "1546637391": {
       "name": "Vorpal Weapon",
-      "description":"'\n•  20% (40-50% in PvP) for Primary Weapons\n•  15% (10-20% in PvP) for Special Weapons\n•  10% for Power Weapons"
+      "description":"•\t20% (40-50% in PvP) for Primary Weapons\n•\t15% (10-20% in PvP) for Special Weapons\n•\t10% for Power Weapons"
     },
     "3592538738": {
       "name": "Wellspring",
@@ -422,7 +434,7 @@
     },
     "3913600130": {
       "name": "Whirlwind Blade",
-      "description": "Stacks up to 10x. 3% per Stack up to 30% at 10x."
+      "description": "Stacks up to 10x. 3% per Caps at 30% with 10x."
     },
     "2387244414": {
       "name": "Zen Moment",
