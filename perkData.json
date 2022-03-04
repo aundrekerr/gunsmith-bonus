@@ -198,7 +198,7 @@
     },
     "124408337": {
       "name": "Headstone",
-      "description": "Minor enemies spawn a medium-sized Stasis Crystal. Anything is a large-sized Crystal. Having 5 crystals active simultaneously incurs a 5s cooldown penalty."
+      "description": "Minor enemies spawn a medium-sized Stasis Crystal. Anything else is a large-sized Crystal. Having 5 crystals active simultaneously incurs a 5s cooldown penalty."
     },
     "1570042021": {
       "name": "Heating Up",
@@ -286,7 +286,7 @@
     },
     "1428297954": {
       "name": "Perpetual Motion",
-      "description": "Grants 1 Stack 2s of moving, second Stack after 10s. Works while weapon is stowed. \n•  1x:\t5 Stability, 10 Handling, 10 Reload\n•  2x:\t10 Stability, 20 Handling, 20 Reload"
+      "description": "Grants 1 Stack after 2s of moving, second Stack after 10s. Works while weapon is stowed. \n•  1x:\t5 Stability, 10 Handling, 10 Reload\n•  2x:\t10 Stability, 20 Handling, 20 Reload"
     },
     "830282363": {
       "name": "Phase Mag",
