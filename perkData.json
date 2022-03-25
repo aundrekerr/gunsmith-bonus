@@ -2,7 +2,11 @@
   "weapon_perks": {
     "3673922083": {
       "name": "Adagio",
-      "description": "Duration of 7 seconds. \n•\tHand Cannon: 30% Damage, -15% RoF\n•\tAuto Rifle: 30% Damage, -20% RoF\n•\tBow: 20% Damage, -20% Charge Rate\n•\tShotgun: 30% Damage, -20% RoF\n•\tFusion Rifle: 27% Damage, -15% Charge Rate\n•\tGrenade Launcher: 30% Damage, -20% RoF\n• \tLinear Fusion Rifle: 30% Damage, -15% Charge Rate"
+      "description": "Duration of 7 seconds. \n•\tHand Cannon: 30% Damage, -15% RoF\n•\tAuto Rifle: 30% Damage, -20% RoF\n•\tBow: 20% Damage, -20% Charge Rate\n•\tSidearm: 30% Damage, ?% RoF\n•\tShotgun: 30% Damage, -20% RoF\n•\tFusion Rifle: 27% Damage, -15% Charge Rate\n•\tSniper Rifle: 30% Damage, ?% RoF\n•\tGrenade Launcher: 30% Damage, -20% RoF\n• \tLinear Fusion Rifle: 30% Damage, -15% Charge Rate"
+    },
+    "1048183818": {
+      "name": "Adaptive Munitions",
+      "description": "When hitting a Non-Matching Shield, damage ramps up until hitting an unshielded enemy. Stacks up to 137%, 333%, 500%."
     },
     "11612903": {
       "name": "Adrenaline Junkie",
@@ -36,6 +40,10 @@
       "name": "Backup Plan",
       "description": "Has a 4 second duration. Multiplies Charge Time by 0.7, reduces Damage by 20%, and grants 100 Handling."
     },
+    "3078487919": {
+      "name": "Bait and Switch",
+      "description": "20% damage increase for 10 seconds."
+    },
     "454085387": {
       "name": "Blunt Execution Rounds",
       "description": "Must deal Melee damage while an enemy is within 15m. Grants 100 Handling and 500% (PvE)/100% (PvP) Damage for 10s or until firing. 4s cooldown and can be procced when stowed. Powered Melees that require sprinting, sliding, or performing a slam will not activate this perk."
@@ -52,6 +60,10 @@
       "name": "Chain Reaction",
       "description": "Kills create an elemental explosion. Not affected by Dragonfly Spec."
     },
+    "2978966579": {
+      "name": "Chill Clip",
+      "description": "Direct Hits create an explosion which applies 50 Slow to enemies."
+    },
     "2284787283": {
       "name": "Clown Cartridge",
       "description": "Randomly increases magazine between 10% and 50% on reload. Always rounds magazine up."
@@ -64,6 +76,10 @@
       "name": "Cold Steel",
       "description": "Powered Sword Hits apply Slow Stacks. Light Attacks apply 40 Slow Stacks and Heavy Attacks apply 60 Slow Stacks."
     },
+    "671806388": {
+      "name": "Compulsive Reloader",
+      "description": "While above 70% Magazine, this weapon is granted 50 Reload Speed."
+    },
     "1799762209": {
       "name": "Cornered",
       "description": "Activates within ~15m of 2 enemies. Grants 100ms faster Charge Time/Draw Time. Lingers for 1.5s."
@@ -74,7 +90,7 @@
     },
     "960810156": {
       "name": "Danger Zone",
-      "description": "Activates within ~15 meters of 3 enemies, lingers for ~4s. Sets Blast Radius to 100 and Self Damage to 40%."
+      "description": "Activates within ~15 meters of 3 enemies, lingers for ~4s. Sets Blast Radius to 100 and Self Damage to 40% (normally 25%)."
     },
     "3523296417": {
       "name": "Demolitionist",
@@ -126,7 +142,7 @@
     },
     "3194351027": {
       "name": "Explosive Light",
-      "description": "Caps at 6 stacks. Heavy Grenade Launchers receives a 70% damage increase. Rocket Launchers receive a 25% damage increase and sets Blast Radius to 100."
+      "description": "Caps at 6 stacks. Heavy Grenade Launchers receives a 44% damage increase and sets Blast Radius to 55. Rocket Launchers receive a 25% damage increase and sets Blast Radius to 100."
     },
     "3038247973": {
       "name": "Explosive Payload",
@@ -364,9 +380,17 @@
       "name": "Spike Grenades",
       "description": "50% damage increase to impact damage. If you get this perk, aim for low Blast Radius and high Velocity."
     },
+    "1583705720": {
+      "name": "Stats For All",
+      "description": "After damaging 3 enemies within 3s of each. Duration of 10s.\n•\t? Range\n•\t? Stability\n•\t30 Handling\n•\t30 Reload Speed"
+    },
     "1820235745": {
       "name": "Subsistence",
       "description": "Reloads 10-17% of the magazine per kill. Varies per weapon archetype."
+    },
+    "2652708987": {
+      "name": "Successful Warm-Up",
+      "description": "Kills increase Charge Rate/Draw Speed by 37.5%."
     },
     "3436462433": {
       "name": "Surplus",
@@ -424,6 +448,10 @@
       "name": "Unrelenting",
       "description": "Starts health regen and grants ~80 HP after obtaining 3 points. Rank-And-File grant 1 point, Guardians grant 2, Elites/Mini-Bosses/Bosses grant 3. Kills must be within ~8s of eachother."
     },
+    "2224838837": {
+      "name": "Unstoppable Force",
+      "description": "30% increased projectile damage for 4s or until blocking has stopped. Hits refresh duration."
+    },
     "1546637391": {
       "name": "Vorpal Weapon",
       "description":"•\t20% (40-50% in PvP) for Primary Weapons\n•\t15% (10-20% in PvP) for Special Weapons\n•\t10% for Power Weapons"
@@ -439,6 +467,91 @@
     "2387244414": {
       "name": "Zen Moment",
       "description": "Reduces the Maximum Recoil Angle, removes Reticle Bounce, reduces Weapon Shake. Much more noticeable on controller."
+    },
+
+    "2988596335": {
+      "name": "Alacrity",
+      "description": "Trials of Osiris Trait. Grants 20 Reload, 20 Stability, 10 Aim Assist, and 10 Range."
+    },
+    "1607056502": {
+      "name": "Häkke Breach Armaments",
+      "description": "Häkke Foundry Trait. 15% increased damage against Vehicles, Turrets, Barricades, and Stasis Crystals."
+    },
+    "515704826": {
+      "name": "Invader Tracker",
+      "description": "Gambit Trait."
+    },
+    "1536798515": {
+      "name": "Land Tank",
+      "description": "Season of the Risen Trait. Kills grant 10 Resilience and 5% Damage Resist against Combatants. Stacks up to 3 times, 5s duration."
+    },
+    "2839173408": {
+      "name": "Omolon Fluid Dynamics",
+      "description": "Omolon Foundry Trait. Starts at 20 Stability and 30 Reload Speed, gradually decreases unto 50% Magazine."
+    },
+    "4091460919": {
+      "name": "One Quiet Moment",
+      "description": "Crucible Trait. Grants 40 Reload Speed when out of combat."
+    },
+    "3989629871": {
+      "name": "Skulking Wolf",
+      "description": "Iron Banner Trait."
+    },
+    "3363267119": {
+      "name": "Souldrinker",
+      "description": "Vow of the Disciple Trait. Health regeneration effect can be stowed for later by swapping to another weapon."
+    },
+    "4008116374": {
+      "name": "SUROS Synergy",
+      "description": "SUROS Foundry Trait. Grants 36 Handling and 20% Flinch Resistance for 6s."
+    },
+    "744217850": {
+      "name": "Vanguard's Vindication",
+      "description": "Vanguard Trait. Regain 7 Health on kills."
+    },
+    "3988215619": {
+      "name": "VEIST Stinger",
+      "description": "VEIST Foundry Trait."
+    },
+    "79448657": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "82180537": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "357495645": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "567997816": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "883366072": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "1471995745": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "1598147670": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "2171055345": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "3717985200": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
+    },
+    "3754350707": {
+      "name": "Psychohack",
+      "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
     }
   },
 
