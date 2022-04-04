@@ -2,11 +2,11 @@
   "weapon_perks": {
     "3673922083": {
       "name": "Adagio",
-      "description": "Duration of 7 seconds. \n•\tHand Cannon: 30% Damage, -15% RoF\n•\tAuto Rifle: 30% Damage, -20% RoF\n•\tBow: 20% Damage, -20% Charge Rate\n•\tSidearm: 30% Damage, ?% RoF\n•\tShotgun: 30% Damage, -20% RoF\n•\tFusion Rifle: 27% Damage, -15% Charge Rate\n•\tSniper Rifle: 30% Damage, ?% RoF\n•\tGrenade Launcher: 30% Damage, -20% RoF\n• \tLinear Fusion Rifle: 30% Damage, -15% Charge Rate"
+      "description": "Duration of 7 seconds, also adds 10 Range. \n•\tHand Cannon: 30% Damage, -15% RoF\n•\tAuto Rifle: 30% Damage, -20% RoF\n•\tBow: 20% Damage, -20% Charge Rate\n•\tSidearm: 30% Damage, -20% RoF\n•\tShotgun: 30% Damage, -20% RoF\n•\tFusion Rifle: 27% Damage, -15% Charge Rate\n•\tSniper Rifle: 30% Damage, ?% RoF\n•\tGrenade Launcher: 30% Damage, -20% RoF\n• \tLinear Fusion Rifle: 30% Damage, -15% Charge Rate"
     },
     "1048183818": {
       "name": "Adaptive Munitions",
-      "description": "When hitting a Non-Matching Shield, damage ramps up until hitting an unshielded enemy. Stacks up to 137%, 333%, 500%."
+      "description": "When hitting a Non-Matching Shield, damage ramps up to 500% against shields until hitting aa matching shield or unshielded enemy.\n•\tAuto Rifles & Pulse Rifles: 33.3% per stack\n•\tBows, Hand Cannons, & Scout Rifles: 166.6% per stack\n•\tLinear Fusion: 150% per stack (caps at 450%)"
     },
     "11612903": {
       "name": "Adrenaline Junkie",
@@ -26,15 +26,15 @@
     },
     "1968497646": {
       "name": "Armor-Piercing Rounds",
-      "description": "5% Damage Increase against Combatant Shields. Bullets are able to penetrate enemies once."
+      "description": "5% damage increase against Combatant Shields. Bullets are able to overpenetrate enemies once."
     },
     "354401740": {
       "name": "Assassin's Blade",
-      "description": "15% Damage Increase and sets Forward Movement Speed to 9m/s (max Sprint Speed). Increases Sword Lunge distance and does not expire on stow."
+      "description": "15% damage increase and sets Forward Movement Speed to 9m/s (max Sprint Speed). Increases Sword Lunge distance and does not expire on stow."
     },
     "3300816228": {
       "name": "Auto-Loading Holster",
-      "description": "Activates in 3s."
+      "description": "Activates in 2.5s."
     },
     "1600092898": {
       "name": "Backup Plan",
@@ -46,7 +46,7 @@
     },
     "454085387": {
       "name": "Blunt Execution Rounds",
-      "description": "Must deal Melee damage while an enemy is within 15m. Grants 100 Handling and 500% (PvE)/100% (PvP) Damage for 10s or until firing. 4s cooldown and can be procced when stowed. Powered Melees that require sprinting, sliding, or performing a slam will not activate this perk."
+      "description": "Must deal Melee damage while an enemy is within 15m. Grants 100 Handling and 500% (PvE)/100% (PvP) damage for 10s or until firing. 4s cooldown and can be activated when stowed. Powered Melees that require sprinting, sliding, or performing a slam will not activate this perk."
     },
     "2551157718": {
       "name": "Box Breathing",
@@ -82,7 +82,7 @@
     },
     "1799762209": {
       "name": "Cornered",
-      "description": "Activates within ~15m of 2 enemies. Grants 100ms faster Charge Time/Draw Time. Lingers for 1.5s."
+      "description": "Activates within ~15m of 2 enemies. Grants 100ms faster Charge Rate/Draw Time. Lingers for 1.5s."
     },
     "3016987351": {
       "name": "Counterattack",
@@ -94,7 +94,7 @@
     },
     "3523296417": {
       "name": "Demolitionist",
-      "description": "Primary and Power weapon kills grant 10% of your grenade energy. Specials grant 20%. 3 second cooldown on the reload effect."
+      "description": "Primary and Power weapon kills grant 10% of your grenade energy. Most Specials grant 20%. 3 second cooldown on the reload effect."
     },
     "3047969693": {
       "name": "Desperado",
@@ -110,7 +110,7 @@
     },
     "1359896290": {
       "name": "Dynamic Sway Reduction",
-      "description": "Greatly increases Accuracy after sustained fire for 0.6s, almost negating the effects of bloom. Adds 9 Stability over time. In-air accuracy is improved but not greatly unless used alongside Icarus Grip."
+      "description": "Adds up to 10 Stability. Greatly increases Accuracy after sustained fire for 0.6s, almost negating the effects of bloom. In-air accuracy is improved but not greatly unless used alongside Icarus Grip."
     },
     "2077819806": {
       "name": "Eager Edge",
@@ -126,7 +126,7 @@
     },
     "1195158366": {
       "name": "Encore",
-      "description": "On precision kills, grants 10 Range per stack and maxes at 3 stacks. On non-precision kill, removes a stack then grants Accuracy Cone growth and 30 Stability. Lasts 7 seconds and is refreshed on kill."
+      "description": "On precision kills, grants 10 Range per stack and maxes at 3 stacks. On non-precision kill, removes a stack then grants Accuracy Cone benefits and 30 Stability. Lasts 7 seconds and is refreshed on kill."
     },
     "2030760728": {
       "name": "Energy Transfer",
@@ -170,15 +170,19 @@
     },
     "280464955": {
       "name": "Firmly Planted",
-      "description": "Grants the following when crouched:\n•\t30 Handling\n•\t20 Stability\n•\t-40 Accuracy Cone Size\n•\t-17% Accuracy Cone Growth\n•\t-80 Recoil Yaw (Horizontal Recoil)"
+      "description": "Grants the following when crouched (halved benefits Fusion Rifles):\n•\t30 Handling\n•\t20 Stability\n•\t-40 Accuracy Cone Size\n•\t-17% Accuracy Cone Growth\n•\t-80 Recoil Yaw (Horizontal Recoil)"
     },
     "2244851822": {
       "name": "Flash Counter",
       "description": "Activates after blocking a melee within ~0.5s of starting a Block. Suppresses and Weakens the enemy, granting 20% increased Damage for 4s."
     },
+    "2896038713": {
+      "name": "Focused Fury",
+      "description": "Activates after hitting 50% of the Magazine as Precision Damage. Grants 20% increased damage for 11 seconds."
+    },
     "1354429876": {
       "name": "Fourth Times The Charm",
-      "description": "4 Precision Hits within 2.5s generate 2 bullets to the magazine."
+      "description": "4 Precision Hits within 2s generate 2 bullets to the magazine."
     },
     "4104185692": {
       "name": "Frenzy",
@@ -210,7 +214,7 @@
     },
     "460017080": {
       "name": "Headseeker",
-      "description": "Headshots mid burst after hitting at least one bodyshot receive 8% increased precision damage."
+      "description": "Precision Hits within 0.3s of hitting a body shot deal 8% increased damage."
     },
     "124408337": {
       "name": "Headstone",
@@ -218,7 +222,7 @@
     },
     "1570042021": {
       "name": "Heating Up",
-      "description": "Lasts 5.5s.\n•  1x:\n\t• 15% Accuracy Cone Growth\n\t• 15 Stability\n\t• ~20 Recoil Direction \n•  2x:\n\t• 30% Accuracy Cone Growth\n\t• 30 Stability\n\t• ~40 Recoil Direction"
+      "description": "Lasts 5.5s.\n•  1x:\n\t• -15% Accuracy Cone Growth\n\t• 15 Stability\n\t• ~20 Recoil Direction \n•  2x:\n\t• -30% Accuracy Cone Growth\n\t• 30 Stability\n\t• ~40 Recoil Direction"
     },
     "1561002382": {
       "name": "High-Caliber Rounds",
@@ -226,11 +230,11 @@
     },
     "2213355989": {
       "name": "High-Impact Reserves",
-      "description": "Gradual damage increase starting at 50% of magazine left.\n• \tIn PvE, 12.1% to 25.6%.\n• \tIn PvP, 3% to 6%."
+      "description": "Gradual damage increase starting at 50% of Magazine.\n• \tIn PvE, 12.1% to 25.6%.\n• \tIn PvP, 3% to 6%."
     },
     "1866048759": {
       "name": "Hip-fire Grip",
-      "description": "•\t1.2x Aim Assist and Reticle Stickiness falloff distance\n•\t15 Aim Assistance\n•\t+2.7deg precision angle threshold (except for Snipers)\n•\t~30% Accuracy Cone Size \n•\t~30 Stability"
+      "description": "It's a lot of nerd stats:\n•\t15 Aim Assist\n•\t2.7° Precision Angle Threshold\n•\t~30 Accuracy Cone Size\n•\t~30 Stability\n•\t1.2x Aim Assist Falloff Distance, Reticle Stickiness Falloff Distance, Damage Falloff Start & End Distance (except Shotguns)"
     },
     "3796465595": {
       "name": "Impact Casing",
@@ -238,11 +242,11 @@
     },
     "951095735": {
       "name": "Impulse Amplifier",
-      "description": "13% faster projectile velocity and 10 Reload Speed with 0.8x multiplier."
+      "description": "Grants 10 Reload Speed with 0.8x multiplier. Velocity increase varies per archetype."
     },
     "1754714824": {
       "name": "Kickstart",
-      "description": "20% more damage and 100ms faster charge time during a slide after sprinting for 1.5s. Buff can expire mid-burst if you don't immediately start charging."
+      "description": "20% more damage and 100ms faster Charge Time during a slide after sprinting for 1.5s. Buff can expire mid-burst if you don't immediately start charging."
     },
     "1015611457": {
       "name": "Kill Clip",
@@ -254,7 +258,7 @@
     },
     "3927722942": {
       "name": "Lasting Impression",
-      "description": "Rockets detonate 3 seconds after impact and deal an additional 25% Explosive Damage. Effectively 20% increased damage."
+      "description": "Rockets attach and detonate 3 seconds after impact and deal an additional 25% Explosive Damage. Effectively 20% increased damage. Explosion can be delayed by shooting the rocket itself when attached to a surface."
     },
     "1556840489": {
       "name": "Lead From Gold",
@@ -270,7 +274,7 @@
     },
     "2458213969": {
       "name": "Multikill Clip",
-      "description": "Must reload within 3.8s of a Weapon Kill. Grants Damage Increases at 17%, 33%, and 50%. Buff is overwritten every time you refresh it."
+      "description": "Must reload within 3.8s of a Weapon Kill. Grants damage increases at 17%, 33%, and 50%. Buff is overwritten every time you refresh it."
     },
     "2866798147": {
       "name": "No Distractions",
@@ -298,7 +302,7 @@
     },
     "3643424744": {
       "name": "Overflow",
-      "description": "Refills magazine to 2x capacity."
+      "description": "Refills magazine to double its normal capacity."
     },
     "1428297954": {
       "name": "Perpetual Motion",
@@ -366,7 +370,7 @@
     },
     "2039302152": {
       "name": "Slideways",
-      "description": "Lasts 3s. Refreshes 15% of the magazine and grants ~20 Stability & ~25 Handling."
+      "description": "Lasts 3s. Refreshes 15% of the magazine and grants 20 Stability & 25 Handling."
     },
     "957782887": {
       "name": "Snapshot Sights",
@@ -384,6 +388,10 @@
       "name": "Stats For All",
       "description": "After damaging 3 enemies within 3s of each. Duration of 10s.\n•\t? Range\n•\t? Stability\n•\t30 Handling\n•\t30 Reload Speed"
     },
+    "509074078": {
+      "name": "Steady Hands",
+      "description": "Duration of 8s, can be refreshed up to 6s."
+    },
     "1820235745": {
       "name": "Subsistence",
       "description": "Reloads 10-17% of the magazine per kill. Varies per weapon archetype."
@@ -395,6 +403,10 @@
     "3436462433": {
       "name": "Surplus",
       "description": "Multi-charge abilities contribute to the requirements (ex. 2 grenades and a melee will count as max benefit Surplus). This perk does not let you exceed 100 Handling. \n\nReload Speed: \t5/22/50 \nHandling: \t\t10/25/50 \nStability: \t\t5/15/25"
+    },
+    "3708227201": {
+      "name": "Surrounded",
+      "description": "30% damage increase when within 8m of 3 or more enemies. Swords receive a reduced bonus."
     },
     "4082225868": {
       "name": "Swashbuckler",
@@ -438,7 +450,7 @@
     },
     "1645158859": {
       "name": "Under Pressure",
-      "description": "Activates once the magazine goes below 50%. Grants 25% to 50% increased accuracy and up to 30 Stability."
+      "description": "Activates once the magazine goes below 50%. Grants 25% to 50% increased Accuracy and up to 30 Stability."
     },
     "205890336": {
       "name": "Underdog",
@@ -454,11 +466,11 @@
     },
     "1546637391": {
       "name": "Vorpal Weapon",
-      "description":"•\t20% (40-50% in PvP) for Primary Weapons\n•\t15% (10-20% in PvP) for Special Weapons\n•\t10% for Power Weapons"
+      "description":"•\t20% (40-50% in PvP) for Primary Weapons\n•\t15% (10-20% in PvP) for Special Weapons\n•\t10% (5-10% in PvP) for Power Weapons"
     },
     "3592538738": {
       "name": "Wellspring",
-      "description": "Grants 7.5% ability energy split equally across all uncharged abilities. Bugged with multi-charge abilities (ex. Stasis Hunter Shuriken)."
+      "description": "Grants 8% ability energy split equally across all uncharged abilities. Bugged with multi-charge abilities (ex. Stasis Hunter Shuriken)."
     },
     "3913600130": {
       "name": "Whirlwind Blade",
@@ -467,6 +479,91 @@
     "2387244414": {
       "name": "Zen Moment",
       "description": "Reduces the Maximum Recoil Angle, removes Reticle Bounce, reduces Weapon Shake. Much more noticeable on controller."
+    },
+
+    "2889515627": {
+      "name": "Adagio Enhanced",
+      "description": "Increases duration from 7s to 8s."
+    },
+    "3431277734": {
+      "name": "Adaptive Munitions Enhanced",
+      "description": "Increased bonus per stack, maximum cap is raised from 500% to 600%:\n•\tAuto Rifles & Pulse Rifles: 40% per stack\n•\tBows, Hand Cannons, & Scout Rifles: 200% per stack"
+    },
+    "3523746922": {
+      "name": "Archer's Tempo Enhanced",
+      "description": "Increases duration from 3s to 4s."
+    },
+    "3528046508": {
+      "name": "Auto-Loading Holster Enhanced",
+      "description": "Activates 0.2s sooner."
+    },
+    "23371658": {
+      "name": "Box Breathing Enhanced",
+      "description": "Activates 0.1s sooner."
+    },
+    "3563868667": {
+      "name": "Clown Cartridge Enhanced",
+      "description": "Literally just gives you better RNG."
+    },
+    "2402480669": {
+      "name": "Focused Fury Enhanced",
+      "description": "Increases duration from 11s to 12s."
+    },
+    "3007133316": {
+      "name": "Frenzy Enhanced",
+      "description": "Increases In Combat duration by 0.5s."
+    },
+    "2002547233": {
+      "name": "High-Impact Reserves Enhanced",
+      "description": "Damage increase starts at 75% Magazine."
+    },
+    "2923251173": {
+      "name": "Kill Clip Enhanced",
+      "description": "Increases duration from 5s to 5.5s."
+    },
+    "3442762221": {
+      "name": "Lead From Gold Enhanced",
+      "description": "Special gained goes from the equivalent of 1 ammo brick to 2."
+    },
+    "859780267": {
+      "name": "One For All Enhanced",
+      "description": "Increases duration from 10s to 11s."
+    },
+    "788178929": {
+      "name": "One-Two Punch Enhanced",
+      "description": "Reduces number of pellets required to activate from 12 to 10."
+    },
+    "2682205016": {
+      "name": "Overflow Enhanced",
+      "description": "Now overflows slightly over double normal capacity. Can vary from 2.05x to 2.22x depending on base Magazine and traits."
+    },
+    "2014892510": {
+      "name": "Perpetual Motion Enhanced",
+      "description": "Now lingers for 1s (from 0.5s) when not in motion."
+    },
+    "288411554": {
+      "name": "Rampage Enhanced",
+      "description": "Increases duration from 3.5s to 4s. Works with Rampage Spec Mod (from 4.5s to 5s)."
+    },
+    "4245865861": {
+      "name": "Subsistence Enhanced",
+      "description": "Increases refresh from 10-17% to ~25%. Varies per weapon archetype."
+    },
+    "617966211": {
+      "name": "Successful Warm-Up Enhanced",
+      "description": "Increases duration by 1s for each extension tier."
+    },
+    "781192741": {
+      "name": "Surrounded Enhanced",
+      "description": "5% damage increase to the base perk. Increases from 30% to 36.5%, 40% to 47% with Surrounded Spec."
+    },
+    "1161469972": {
+      "name": "Swashbuckler Enhanced",
+      "description": "Increases duration from 4.5s to 6.5s."
+    },
+    "573122728": {
+      "name": "Triple Tap Enhanced",
+      "description": "Increases activation window from 2.5s to 4s."
     },
 
     "2988596335": {
