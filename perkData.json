@@ -2,15 +2,19 @@
   "weapon_perks": {
     "3673922083": {
       "name": "Adagio",
-      "description": "Duration of 7 seconds, also adds 10 Range. \n•\tHand Cannon: 30% Damage, -15% RoF\n•\tAuto Rifle: 30% Damage, -20% RoF\n•\tBow: 20% Damage, -20% Charge Rate\n•\tSidearm: 30% Damage, -20% RoF\n•\tShotgun: 30% Damage, -20% RoF\n•\tFusion Rifle: 27% Damage, -15% Charge Rate\n•\tSniper Rifle: 30% Damage, ?% RoF\n•\tGrenade Launcher: 30% Damage, -20% RoF\n• \tLinear Fusion Rifle: 30% Damage, -15% Charge Rate"
+      "description": "Duration of 7 seconds, adds 10 Range and a 30% damage increase (20% for shotguns). \n•\t-15% Rate of Fire/Charge Rate:\tHand Cannons, Fusion Rifles, Linear Fusion Rifles, Scout Rifles\n•\t-20% Rate of Fire/Charge Rate:\tAuto Rifles, Bows, Grenade Launchers, Sidearms, Shotguns"
     },
     "1048183818": {
       "name": "Adaptive Munitions",
-      "description": "When hitting a Non-Matching Shield, damage ramps up to 500% against shields until hitting aa matching shield or unshielded enemy.\n•\tAuto Rifles & Pulse Rifles: 33.3% per stack\n•\tBows, Hand Cannons, & Scout Rifles: 166.6% per stack\n•\tLinear Fusion: 150% per stack (caps at 450%)"
+      "description": "When hitting a Non-Matching Shield, damage ramps up to 500% against shields until hitting a matching shield or unshielded enemy.\n•\tAuto Rifles & Pulse Rifles: 33.3% per hit\n•\tBows, Hand Cannons, & Scout Rifles: 166.6% per hit\n•\tLinear Fusion: 150% per hit (caps at 450%)"
     },
     "11612903": {
       "name": "Adrenaline Junkie",
       "description": "Duration refreshed on Weapon or Grenade Kill. Any stack grants ~20 Handling. Has a duration of 4.5 seconds.\n•  1x:\t6.6%\n•  2x:\t13.2%\n•  3x:\t20%\n•  4x:\t26.6%\n•  5x:\t33.3%"
+    },
+    "3722653512": {
+      "name": "Air Assault",
+      "description": "Grants up to 60 Airborne Effectiveness. Effect increases linearly as Health decreases and is maximised at Critical Health."
     },
     "1431678320": {
       "name": "Alloy Mag",
@@ -22,7 +26,7 @@
     },
     "201365942": {
       "name": "Archer's Tempo",
-      "description": "Decreases Draw Time by 30% for 3 seconds. Perfect Draws are not accurate with the Draw Time stat. You can be up to 40ms too early and still achieve them."
+      "description": "Decreases Draw Time by 25% for 3 seconds."
     },
     "1968497646": {
       "name": "Armor-Piercing Rounds",
@@ -38,11 +42,11 @@
     },
     "1600092898": {
       "name": "Backup Plan",
-      "description": "Has a 4 second duration. Multiplies Charge Time by 0.7, reduces Damage by 20%, and grants 100 Handling."
+      "description": "Has a 4 second duration. 30% faster Charge Rate, 20% decreased damage, and 100 Handling."
     },
     "3078487919": {
       "name": "Bait and Switch",
-      "description": "20% damage increase for 10 seconds."
+      "description": "35% damage increase for 10 seconds."
     },
     "454085387": {
       "name": "Blunt Execution Rounds",
@@ -78,7 +82,7 @@
     },
     "671806388": {
       "name": "Compulsive Reloader",
-      "description": "While above 70% Magazine, this weapon is granted 50 Reload Speed."
+      "description": "While above 70% Magazine, this weapon is granted 50 Reload Speed and a 0.95x Duration Scale."
     },
     "1799762209": {
       "name": "Cornered",
@@ -98,7 +102,7 @@
     },
     "3047969693": {
       "name": "Desperado",
-      "description": "Reloading within 6s of a precision kill increases your Rate of Fire to 600RPM for 7 seconds. Reduces damage by 20% against combatants. Can be refreshed."
+      "description": "Reloading within 6s of a precision kill reduces your delay after shooting by 30% for 6 seconds. Can be refreshed."
     },
     "1683379515": {
       "name": "Disruption Break",
@@ -142,11 +146,11 @@
     },
     "3194351027": {
       "name": "Explosive Light",
-      "description": "Caps at 6 stacks. Heavy Grenade Launchers receives a 44% damage increase and sets Blast Radius to 55. Rocket Launchers receive a 25% damage increase and sets Blast Radius to 100."
+      "description": "Caps at 6 stacks and maxes out Blast Radius stat. Heavy Grenade Launchers receives a 44% damage increase. Rocket Launchers receive a 25% damage increase."
     },
     "3038247973": {
       "name": "Explosive Payload",
-      "description": "Splits 50% of damage into explosive damage with 30% more damage and no fall off.\n•\tIn PvE, 11% increase to precision damage and 15% to non-precision damage.\n• \tIn PvP, total damage remains almost the same."
+      "description": "Splits 50% of damage into explosive damage with 30% increased damage and no fall off.\n•\tIn PvE, varied precision damage increase and 15% to non-precision damage.\n• \tIn PvP, total damage remains almost the same."
     },
     "699525795": {
       "name": "Eye of the Storm",
@@ -162,7 +166,7 @@
     },
     "3824105627": {
       "name": "Firefly",
-      "description": "Precision kills grant a 45 Reload Speed bonus for 6 seconds. Same radius as Dragonfly (3m), but deals 25% more damage. Does not work with Dragonfly Spec."
+      "description": "Precision kills grant a 50 Reload Speed bonus for 6 seconds. Same radius as Dragonfly (3m), but deals 25% more damage. Does not work with Dragonfly Spec."
     },
     "1771339417": {
       "name": "Firing Line",
@@ -178,7 +182,7 @@
     },
     "2896038713": {
       "name": "Focused Fury",
-      "description": "Activates after hitting 50% of the Magazine as Precision Damage. Grants 20% increased damage for 11 seconds."
+      "description": "Activates after hitting 50% of the Magazine as Precision Hits. Grants 20% increased damage for 11 seconds."
     },
     "1354429876": {
       "name": "Fourth Times The Charm",
@@ -191,6 +195,10 @@
     "2117683199": {
       "name": "Full Auto Trigger System",
       "description": "Increases fire rate by 10% on shotguns only."
+    },
+    "1047830412": {
+      "name": "Full Choke",
+      "description": "Decreases pellet spread by 3.75%."
     },
     "2888557110": {
       "name": "Full Court",
@@ -242,7 +250,7 @@
     },
     "951095735": {
       "name": "Impulse Amplifier",
-      "description": "Grants 10 Reload Speed with 0.8x multiplier. Velocity increase varies per archetype."
+      "description": "Grants 10 Reload Speed with 0.8x multiplier. 35% faster projectile velocity."
     },
     "1754714824": {
       "name": "Kickstart",
@@ -254,7 +262,7 @@
     },
     "2450788523": {
       "name": "Killing Wind",
-      "description": "Lasts for 6s, additional kills add 6s, caps at 8s.\n•\t20 Range\n•\t50 Mobility\n•\t40 Handling\n•\t30% reduced ADS movement penalty\n•\t1.05x Damage Falloff Distance Multiplier"
+      "description": "Lasts for 5s, additional kills add 5s, caps at 8s.\n•\t20 Range\n•\t50 Mobility\n•\t40 Handling\n•\t30% reduced ADS movement penalty\n•\t1.05x Damage Falloff Distance Multiplier"
     },
     "3927722942": {
       "name": "Lasting Impression",
@@ -270,7 +278,7 @@
     },
     "3513791699": {
       "name": "Mulligan",
-      "description": "20% chance on miss to return 1 Ammo to the Magazine."
+      "description": "Primary Weapons have a 35% chance to refund ammo. Special Weapons have a 20% to refund ammo."
     },
     "2458213969": {
       "name": "Multikill Clip",
@@ -278,7 +286,7 @@
     },
     "2866798147": {
       "name": "No Distractions",
-      "description": "After being scoped for 1s without firing, flinch is reduced by 35%. Stacks multiplicatively with Unflinching Armor mods."
+      "description": "After aiming down sights for 1s without firing, flinch is reduced by 35%. Timer starts as soon as the ADS input is registered."
     },
     "4049631843": {
       "name": "One For All",
@@ -286,19 +294,19 @@
     },
     "2679249093": {
       "name": "One-Two Punch",
-      "description": "Lasts for 1.5s:\n•\t200% Melee Damage Increase normally\n•\t350% Melee Damage Increase against Bosses and Vehicles\n•\t80% Melee Damage Increase if combined with Liar's Handshake (Hunter Exotic Gauntlets)"
+      "description": "Lasts for 1.22s:\n•\t200% Melee Damage Increase normally\n•\t350% Melee Damage Increase against Bosses and Vehicles\n•\t80% Melee Damage Increase if combined with Liar's Handshake (Hunter Exotic Gauntlets)"
     },
     "47981717": {
       "name": "Opening Shot",
-      "description": "Applies to the first bullet only after not firing for 3.1s. Grants the following:\n•\t20 Aim Assistance\n•\t20 Range\n•\t5% Damage Falloff Distance Increase (excluding Shotguns)\n•\t-5% Accuracy Cone\n•\t-10% Accuracy Cone Growth"
+      "description": "Applies to the first bullet only after not firing for 3.1s. Grants the following:\n•\t20 Aim Assistance\n•\t25 Range\n•\t-5% Accuracy Cone Size\n•\t-10% Accuracy Cone Growth"
     },
     "1168162263": {
       "name": "Outlaw",
-      "description": "Adds 63 Reload with a 0.9x multiplier for 6s."
+      "description": "Adds 70 Reload with a 0.9x multiplier for 6s."
     },
     "1528281896": {
       "name": "Outlaw",
-      "description": "Adds 63 Reload with a 0.9x multiplier for 6s."
+      "description": "Adds 70 Reload with a 0.9x multiplier for 6s."
     },
     "3643424744": {
       "name": "Overflow",
@@ -306,15 +314,15 @@
     },
     "1428297954": {
       "name": "Perpetual Motion",
-      "description": "Grants 1 Stack after 2s of moving, second Stack after 10s. Works while weapon is stowed. \n•  1x:\t5 Stability, 10 Handling, 10 Reload\n•  2x:\t10 Stability, 20 Handling, 20 Reload"
+      "description": "Grants 1 Stack after 2s of moving, second Stack after 10s. Works while weapon is stowed. \n•  1x:\t5 Stability, Handling, Reload\n•  2x:\t15 Stability, Handling, Reload"
     },
     "830282363": {
       "name": "Phase Mag",
-      "description": "Sets a Lightweight Frame SMG's Damage and Magazine Profile to that of a Precision Frame."
+      "description": "Sets a Submachine Gun's Damage and Magazine Profile to that of a Precision Frame."
     },
     "972757866": {
       "name": "Pulse Monitor",
-      "description": "Actiavtes when under 38 Shields. Even when stowed: reloads this weapon, grants 45 Handling, 5% Faster Swap Speed."
+      "description": "Activates when under 38 Shields. Even when stowed: reloads this weapon, grants 50 Handling, 5% Ready/Stow Speed."
     },
     "706527188": {
       "name": "Quickdraw",
@@ -326,11 +334,11 @@
     },
     "2846385770": {
       "name": "Rangefinder",
-      "description": "10% increase to Zoom and 30% increase to Aim Assist Damage Falloff Distance while ADS. 5% Faster Projectile Speed when ADS."
+      "description": "10% increase to Zoom and 30% increase to Aim Assist Falloff Distance while ADS. 5% Faster Projectile Speed when ADS."
     },
     "247725512": {
       "name": "Rapid Hit",
-      "description": "Stacks up to 5x (Reload/Stability), lasts for 2s.\n• \t5/5\n• \t27/10\n• \t32/15\n• \t40/20\n• \t54/23"
+      "description": "Stacks up to 5, lasts for 2s. Reload is given a multiplier bonus along with stat increases per stack.\n•  1x:\t2 Stability, 5 Reload Speed (0.99x)\n•  2x:\t12 Stability, 30 Reload Speed (0.97x) \n•  3x:\t14 Stability, 35 Reload Speed (0.96x)\n•  4x:\t18 Stability, 45 Reload Speed (0.94x)\n•  5x:\t25 Stability, 60 Reload Speed (0.93x)"
     },
     "1523832109": {
       "name": "Reconstruction",
@@ -362,7 +370,7 @@
     },
     "3700496672": {
       "name": "Shoot To Loot",
-      "description": "4 second cooldown. Triggers ammo-pickup effects such as Overflow."
+      "description": "Triggers ammo-pickup effects such as Overflow. Only activates if you're capable of picking up the ammo brick."
     },
     "3161816588": {
       "name": "Slideshot",
@@ -370,11 +378,11 @@
     },
     "2039302152": {
       "name": "Slideways",
-      "description": "Lasts 3s. Refreshes 15% of the magazine and grants 20 Stability & 25 Handling."
+      "description": "Lasts 3s. Refreshes 15% of the magazine and grants 20 Stability & 20 Handling."
     },
     "957782887": {
       "name": "Snapshot Sights",
-      "description": "Massive ADS Animation Speed multiplier bonus. Stacks with Targeting mods and Threat Detector."
+      "description": "0.5x ADS Animation Multiplier for Primary Weapons. 0.75x for Special Weapons."
     },
     "908147344": {
       "name": "Sneak Bow",
@@ -386,7 +394,7 @@
     },
     "1583705720": {
       "name": "Stats For All",
-      "description": "After damaging 3 enemies within 3s of each. Duration of 10s.\n•\t? Range\n•\t? Stability\n•\t30 Handling\n•\t30 Reload Speed"
+      "description": "After damaging 3 enemies within 3s of each. Duration of 10s.\n•\t10 Range\n•\t10 Stability\n•\t30 Handling\n•\t35 Reload Speed (with 0.95x Duration Scale)"
     },
     "509074078": {
       "name": "Steady Hands",
@@ -398,11 +406,11 @@
     },
     "2652708987": {
       "name": "Successful Warm-Up",
-      "description": "Kills increase Charge Rate/Draw Speed by 37.5%."
+      "description": "Kills increase Charge Rate/Draw Speed by 37.5%. Kills while the perk is active add 4s to the duration up to 20s."
     },
     "3436462433": {
       "name": "Surplus",
-      "description": "Multi-charge abilities contribute to the requirements (ex. 2 grenades and a melee will count as max benefit Surplus). This perk does not let you exceed 100 Handling. \n\nReload Speed: \t5/22/50 \nHandling: \t\t10/25/50 \nStability: \t\t5/15/25"
+      "description": "Multi-charge abilities contribute to the requirements (ex. 2 grenades and a melee will count as max benefit Surplus). This perk does not let you exceed 100 Handling. \n\nReload Speed: \t5/25/50 \nHandling: \t\t10/25/50 \nStability: \t\t5/15/25"
     },
     "3708227201": {
       "name": "Surrounded",
@@ -592,7 +600,7 @@
     },
     "3989629871": {
       "name": "Skulking Wolf",
-      "description": "Iron Banner Trait."
+      "description": "Iron Banner Trait. 10 second duration."
     },
     "3363267119": {
       "name": "Souldrinker",
