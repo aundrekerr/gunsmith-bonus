@@ -2,7 +2,7 @@
   "weapon_perks": {
     "3673922083": {
       "name": "Adagio",
-      "description": "Duration of 7 seconds, adds 10 Range and a 30% damage increase (20% for shotguns). \n•\t-15% Rate of Fire/Charge Rate:\tHand Cannons, Fusion Rifles, Linear Fusion Rifles, Scout Rifles\n•\t-20% Rate of Fire/Charge Rate:\tAuto Rifles, Bows, Grenade Launchers, Sidearms, Shotguns"
+      "description": "Duration of 7 seconds, adds 10 Range and a 30% damage increase (20% for Shotguns, 27% for Fusion Rifles). \n•\t-15% Rate of Fire/Charge Rate:\tHand Cannons, Fusion Rifles, Linear Fusion Rifles, Scout Rifles\n•\t-20% Rate of Fire/Charge Rate:\tAuto Rifles, Bows, Grenade Launchers, Sidearms, Shotguns"
     },
     "1048183818": {
       "name": "Adaptive Munitions",
@@ -74,7 +74,7 @@
     },
     "1275731761": {
       "name": "Cluster Bomb",
-      "description": "Releases 8 Cluster Bombs where each one does 3% of the Explosive Damage, increasing the effective damage radius and overall damage. Each Cluster Bomb can deal up to the equivalent of a single Hand Cannon shot."
+      "description": "Releases 8 Cluster Bombs where each one does 3% of the Explosive Damage, increasing the effective damage radius and overall damage."
     },
     "3650930298": {
       "name": "Cold Steel",
@@ -98,7 +98,7 @@
     },
     "3523296417": {
       "name": "Demolitionist",
-      "description": "Primary and Power weapon kills grant 10% of your grenade energy. Most Specials grant 20%. 3 second cooldown on the reload effect."
+      "description": "Primary and Power weapon kills grant 10% of your grenade energy. Specials grant 20% (Trace Rifles and Grenade Launchers grant 10%). 3 second cooldown on the reload effect."
     },
     "3047969693": {
       "name": "Desperado",
@@ -178,7 +178,7 @@
     },
     "2244851822": {
       "name": "Flash Counter",
-      "description": "Activates after blocking a melee within ~0.5s of starting a Block. Suppresses and Weakens the enemy, granting 20% increased Damage for 4s."
+      "description": "Activates after blocking a melee within ~0.5s of starting a Block. Suppresses and weakens the enemy, making the target receive 20% increased damage for 4s."
     },
     "2896038713": {
       "name": "Focused Fury",
@@ -248,6 +248,10 @@
       "name": "Impact Casing",
       "description": "10% increase to impact damage."
     },
+    "4293542123": {
+      "name": "Incandescent",
+      "description": "Applys 30 Scorch. Powerful Combatants and Guardians increase the effect range to 8m."
+    },
     "951095735": {
       "name": "Impulse Amplifier",
       "description": "Grants 10 Reload Speed with 0.8x multiplier. 35% faster projectile velocity."
@@ -259,6 +263,10 @@
     "1015611457": {
       "name": "Kill Clip",
       "description": "Must reload within 3.8s of a Weapon Kill. 33% Damage Increase for 5s, cannot be refreshed. Hunter Marksman's Dodge and Dragon's Shadow (Wraithmetal Mail) can activate this perk."
+    },
+    "557221067": {
+      "name": "Killing Tally",
+      "description": "Kills grant a 10% damage increase up to 3 times."
     },
     "2450788523": {
       "name": "Killing Wind",
@@ -351,6 +359,10 @@
     "1749209109": {
       "name": "Relentless Strikes",
       "description": "Powered Swords gain 1 Ammo after 3 Hits within ~2s of each."
+    },
+    "776531651": {
+      "name": "Repulsor Brace",
+      "description": "Grants a 45HP overshield for 8s."
     },
     "1427256713": {
       "name": "Reservoir Burst",
@@ -462,7 +474,7 @@
     },
     "205890336": {
       "name": "Underdog",
-      "description": "Once below ~150 HP, increased Reload Speed. Effect increases linearly as health decreases up to 100 Reload with 0.9x duration multiplier."
+      "description": "Once below 113 HP, increased Reload Speed. Effect increases linearly as health decreases up to 100 Reload with 0.9x duration multiplier."
     },
     "3108830275": {
       "name": "Unrelenting",
@@ -470,7 +482,7 @@
     },
     "2224838837": {
       "name": "Unstoppable Force",
-      "description": "30% increased projectile damage for 4s or until blocking has stopped. Hits refresh duration."
+      "description": "30% increased projectile damage for 4s or until blocking has stopped. Blocking hits refreshes the duration."
     },
     "1546637391": {
       "name": "Vorpal Weapon",
@@ -478,7 +490,11 @@
     },
     "3592538738": {
       "name": "Wellspring",
-      "description": "Grants 8% ability energy split equally across all uncharged abilities. Bugged with multi-charge abilities (ex. Stasis Hunter Shuriken)."
+      "description": "Grants 8% Ability energy split equally across all uncharged abilities."
+    },
+    "744594675": {
+      "name": "Well-Rounded",
+      "description": "10 Range, 10 Stability, and 10 Handling per stack."
     },
     "3913600130": {
       "name": "Whirlwind Blade",
@@ -489,21 +505,36 @@
       "description": "Reduces the Maximum Recoil Angle, removes Reticle Bounce, reduces Weapon Shake. Much more noticeable on controller."
     },
 
+
+
+
     "2889515627": {
       "name": "Adagio Enhanced",
       "description": "Increases duration from 7s to 8s."
     },
     "3431277734": {
       "name": "Adaptive Munitions Enhanced",
-      "description": "Increased bonus per stack, maximum cap is raised from 500% to 600%:\n•\tAuto Rifles & Pulse Rifles: 40% per stack\n•\tBows, Hand Cannons, & Scout Rifles: 200% per stack"
+      "description": "Damage increase per stack and the maximum increase is increased by a multiplicative 20%."
+    },
+    "2422968039": {
+      "name": "Adrenaline Junkie Enhanced",
+      "description": "Buff duration increased to 5s."
     },
     "3523746922": {
       "name": "Archer's Tempo Enhanced",
       "description": "Increases duration from 3s to 4s."
     },
+    "2898218424": {
+      "name": "Air Assault Enhanced",
+      "description": "Grants up to 66 Airborne Effectiveness."
+    },
     "3528046508": {
       "name": "Auto-Loading Holster Enhanced",
-      "description": "Activates 0.2s sooner."
+      "description": "Activates in 2.3s."
+    },
+    "3744057135": {
+      "name": "Bait and Switch Enhanced",
+      "description": "Duration increased to 11s."
     },
     "23371658": {
       "name": "Box Breathing Enhanced",
@@ -513,29 +544,69 @@
       "name": "Clown Cartridge Enhanced",
       "description": "Literally just gives you better RNG."
     },
+    "1906147653": {
+      "name": "Demolitionist Enhanced",
+      "description": "Primary/Heavy weapon kills grant 11% grenade energy. Most special weapon kills grant 22%."
+    },
+    "2216471363": {
+      "name": "Disruption Break Enhanced",
+      "description": "Effect duration increased to 5.5s."
+    },
     "2402480669": {
       "name": "Focused Fury Enhanced",
       "description": "Increases duration from 11s to 12s."
     },
+    "1609056795": {
+      "name": "Fragile Focus Enhanced",
+      "description": "Timer after not taking damage is reduced to 4s."
+    },
     "3007133316": {
       "name": "Frenzy Enhanced",
-      "description": "Increases In Combat duration by 0.5s."
+      "description": "In Combat timer is increased to 5.5s."
+    },
+    "1658784563": {
+      "name": "Genesis Enhanced",
+      "description": "Primary weapons can now overflow their magazines (indefinitely?)."
+    },
+    "4290541820": {
+      "name": "Golden Tricorn Enhanced",
+      "description": "Kills that refresh the buff duration extend the timer to 8s."
+    },
+    "2748801589": {
+      "name": "Harmony Enhanced",
+      "description": "Duration increased to 8s."
+    },
+    "2748258257": {
+      "name": "Heating Up Enhanced",
+      "description": "Duration increased to 6.5s"
     },
     "2002547233": {
       "name": "High-Impact Reserves Enhanced",
       "description": "Damage increase starts at 75% Magazine."
     },
+    "2675184851": {
+      "name": "Incandescent Enhanced",
+      "description": "Increased Scorch stacks applied to 40."
+    },
     "2923251173": {
       "name": "Kill Clip Enhanced",
-      "description": "Increases duration from 5s to 5.5s."
+      "description": "Duration increased to 5.5s."
     },
     "3442762221": {
       "name": "Lead From Gold Enhanced",
       "description": "Special gained goes from the equivalent of 1 ammo brick to 2."
     },
+    "162561147": {
+      "name": "Mulligan Enhanced",
+      "description": "Primary weapons have a 40% chance, Special/Heavy weapons have a 25% chance."
+    },
+    "2570477205": {
+      "name": "Multikill Clip Enhanced",
+      "description": "Duration increased to 5.5s."
+    },
     "859780267": {
       "name": "One For All Enhanced",
-      "description": "Increases duration from 10s to 11s."
+      "description": "Duration increased to 11s."
     },
     "788178929": {
       "name": "One-Two Punch Enhanced",
@@ -547,11 +618,23 @@
     },
     "2014892510": {
       "name": "Perpetual Motion Enhanced",
-      "description": "Now lingers for 1s (from 0.5s) when not in motion."
+      "description": "Deactivation parameter is now lenient for 1s."
     },
     "288411554": {
       "name": "Rampage Enhanced",
       "description": "Increases duration from 3.5s to 4s. Works with Rampage Spec Mod (from 4.5s to 5s)."
+    },
+    "2541826827": {
+      "name": "Repulsor Brace Enhanced",
+      "description": "Duration increased to 9s."
+    },
+    "2396422520": {
+      "name": "Slideways Enhanced",
+      "description": "Effect increased to grant 25 Stability and 25 Handling."
+    },
+    "1409206216": {
+      "name": "Stats For All Enhanced",
+      "description": "Duration increased to 11s."
     },
     "4245865861": {
       "name": "Subsistence Enhanced",
@@ -559,7 +642,7 @@
     },
     "617966211": {
       "name": "Successful Warm-Up Enhanced",
-      "description": "Increases duration by 1s for each extension tier."
+      "description": "Kills increase Charge Rate/Draw Speed for 6s. Each kill while active adds 5s."
     },
     "781192741": {
       "name": "Surrounded Enhanced",
@@ -567,16 +650,43 @@
     },
     "1161469972": {
       "name": "Swashbuckler Enhanced",
-      "description": "Increases duration from 4.5s to 6.5s."
+      "description": "Duration increased to 6.5s."
+    },
+    "1537607344": {
+      "name": "Sympathetic Arsenal Enhanced",
+      "description": "Reload timer window increasd to 7s."
+    },
+    "1172413778": {
+      "name": "Thresh Enhanced",
+      "description": "Primary/Heavy kills grant 1.33% Super energy, Specials grant 2%."
     },
     "573122728": {
       "name": "Triple Tap Enhanced",
       "description": "Increases activation window from 2.5s to 4s."
     },
+    "2000295559": {
+      "name": "Turnabout Enhanced",
+      "description": "Duration increased to 11.4s."
+    },
+    "2675361166": {
+      "name": "Wellspring Enhanced",
+      "description": "Grants 9% Ability energy."
+    },
+
+
+    
 
     "2988596335": {
       "name": "Alacrity",
       "description": "Trials of Osiris Trait. Grants 20 Reload, 20 Stability, 10 Aim Assist, and 10 Range."
+    },
+    "4154828211": {
+      "name": "Bitterspite",
+      "description": "Receiving ~20 damage grants a stack of Bitterspite, up to 5 stacks."
+    },
+    "1702976605": {
+      "name": "Classy Contender",
+      "description": "Kills grant 5% Class Ability Energy."
     },
     "1607056502": {
       "name": "Häkke Breach Armaments",
@@ -609,6 +719,10 @@
     "4008116374": {
       "name": "SUROS Synergy",
       "description": "SUROS Foundry Trait. Grants 36 Handling and 20% Flinch Resistance for 6s."
+    },
+    "1905044254": {
+      "name": "To Excess",
+      "description": "Opulent Trait. Weapon kills while your Super is charged grant 20 Discipline and 20 Strength for 12 seconds."
     },
     "744217850": {
       "name": "Vanguard's Vindication",
@@ -658,6 +772,9 @@
       "name": "Psychohack",
       "description": "Savathün's Throne World Trait. Sustained damage from this weapon lowers the target's damage output by 10% for 3s."
     }
+
+
+
   },
 
   "weapon_mods": {
